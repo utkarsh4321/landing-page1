@@ -1,0 +1,18 @@
+{
+  "name": "appletheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./scss:./css",
+    "deploy":"gh-pages -d dist"
+  },
+  "keywords": [],
+  "homepage": "https://utkarsh4321.github.io/landing-page1",
+  "author": "ram",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.3",
+    "gh-pages": "^2.0.0"
+  }
+}
